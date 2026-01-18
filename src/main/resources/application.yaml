@@ -3,8 +3,8 @@ spring:
     active: dev
 
 server:
-  servlet:
-    context-path: "/truck-load-planner-service"
+#  servlet:
+#    context-path: "/truck-load-planner-service"
   port: 8080
 
 management:
