@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  load-optimizer:
+    build: .
+    image: load-optimizer:latest
+    container_name: truck-load-optimizer
+    ports:
+      - "8080:8080"
